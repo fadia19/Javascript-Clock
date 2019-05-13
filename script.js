@@ -18,7 +18,7 @@ function setTime() {
 
     // hours animation 
     const hours = now.getHours();
-    const hoursDegrees = ((hours / 24) * 360) + 90;
+    const hoursDegrees = ((hours / 12) * 360) + 90;
     hoursHand.style.transform = `rotate(${hoursDegrees}deg)`;
 
 }
